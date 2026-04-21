@@ -98,7 +98,7 @@ python main.py
 
 ## 👨‍💻 Contributors
 
-👤 Your Name – Ankit Kumar
+👤 Name – Ankit Kumar
 
 
 ## ⭐ Support
