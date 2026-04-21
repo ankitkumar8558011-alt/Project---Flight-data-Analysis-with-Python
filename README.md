@@ -1,87 +1,96 @@
-✈️ Flight Data Analysis (300K+ Records)
-📌 Overview
+📌 Problem Statement
 
-This project focuses on analyzing 300,000+ flight records to uncover insights into flight pricing, booking trends, airline performance, and route demand. The analysis helps understand when to book flights, which routes are expensive, and how prices vary across different conditions.
+-Flight ticket prices vary based on multiple factors such as airline, route, booking time, seat class, and number of stops.
 
-🎯 Problem Statement
+The objective of this project is to perform exploratory data analysis (EDA) on a dataset of 300,000+ flight records to:
 
-Flight prices fluctuate based on multiple factors such as booking time, airline, route, and seat class.
-The goal of this project is to perform exploratory data analysis (EDA) on a large dataset to identify:
-
-Pricing trends
-Booking patterns
-Popular routes
-Seat class variations
+Understand how different factors affect flight prices
+Identify patterns in booking behavior and pricing trends
+Analyze airline performance and route demand
+Provide insights to help users make better booking decisions
 
 🛠️ Tech Stack
-Python
-Pandas (Data cleaning & manipulation)
-Matplotlib (Basic visualizations)
-Seaborn (Advanced visualizations)
+Programming Language: Python
+Libraries Used:
+Pandas – Data cleaning & manipulation
+NumPy – Numerical operations
+Matplotlib – Data visualization
+Seaborn – Advanced statistical visualization
+
+📂 Dataset Description
+The dataset contains 300,153 flight records with the following key features:
+Airline (6 unique airlines)
+Source & Destination cities (6 cities)
+Departure & Arrival time
+Number of stops
+Seat class (Economy / Business)
+Duration of flight
+Days left before departure
+Ticket price (Target variable)
 
 ⚙️ Project Workflow
-Data Collection
-Imported dataset containing 300K+ flight records
-Data Cleaning & Preprocessing
-Handled missing values
-Removed duplicates
-Converted data types
-Feature engineering (e.g., extracting day/month, route info)
-Exploratory Data Analysis (EDA)
-Analyzed price distribution
-Compared airlines and routes
-Studied booking time impact
-Data Visualization
-Created graphs to represent trends and patterns
-Compared multiple variables for deeper insights
+1. Data Cleaning
+Removed unnecessary columns (index)
+Checked for missing values (none found)
+Verified data types and consistency
+2. Data Exploration
+Generated statistical summaries
+Analyzed distributions of duration, price, and booking days
+3. Data Visualization
+Created bar charts, line plots, and relational plots
+Compared multiple variables affecting ticket prices
 
-📊 Key Insights
-📈 Flight prices increase as departure date approaches
-🛫 Certain routes consistently show higher demand and pricing
-🪑 Business class fares are significantly higher than economy
-📅 Booking in advance can reduce travel costs
-🏢 Airline pricing strategies vary significantly
-🚀 How to Run
-git clone https://github.com/your-username/flight-data-analysis.git
-cd flight-data-analysis
-pip install -r requirements.txt
-python main.py
-📸 Output
+📊 Key Analysis Performed
+✈️ Airline Analysis
+Identified 6 airlines with Vistara and Air India dominating the dataset
+Compared average ticket prices across airlines
 
-(Add screenshots here)
+🕒 Time-Based Analysis
+Studied departure and arrival time distributions
+Found that ticket prices vary significantly depending on time slots
 
-Examples:
+🌍 Route Analysis
+Analyzed source and destination city trends
+Identified high-traffic routes and their pricing patterns
 
-Price vs Days Left graph
-Airline comparison chart
-Route demand visualization
-Seat class price distribution
+💰 Price vs Booking Time
+Analyzed how ticket price changes with days left before departure
+Observed that:
+Prices are highest when booked close to departure (1–3 days)
+Prices decrease when booked earlier
 
-⭐ Unique Features
-Analysis on a large real-world dataset (300K+ records)
-Clear insights beyond basic visualization
-Structured data pipeline (cleaning → analysis → visualization)
+🪑 Class-Based Analysis
+Compared ticket prices between Economy and Business class
 
-(Optional improvement: Add an interactive dashboard using Streamlit)
+👉 Key finding:
+Economy Average Price: ~₹6,500
+Business Average Price: ~₹52,500
 
-📂 Project Structure
-flight-data-analysis/
-│
-├── data/               # Dataset files  
-├── notebooks/         # Jupyter notebooks  
-├── src/               # Python scripts  
-├── images/            # Output graphs/screenshots  
-├── requirements.txt   # Dependencies  
-└── README.md          # Project documentation  
-🔮 Future Improvements
-Build an interactive dashboard using Streamlit
-Add predictive modeling for price forecasting
-Deploy the project for real-time usage
-🙌 Conclusion
+🔍 Case Study Analysis
+Example: Vistara flights from Delhi to Hyderabad (Business class)
+Average price found: ~₹47,939
 
-This project demonstrates strong skills in:
+📈 Key Insights
+📊 Flight prices increase as departure date approaches
+🛫 Certain airlines (like Vistara) have significantly higher pricing
+🪑 Business class tickets are ~8x more expensive than Economy
+🌍 Popular routes (Delhi, Mumbai, Bangalore) dominate traffic
+🕒 Night and peak-hour flights tend to be more expensive
+📅 Early booking can significantly reduce ticket cost
 
+🚀 Outcomes
+Built a complete data analysis pipeline (cleaning → analysis → visualization)
+Extracted real-world insights from a large dataset (300K+ records)
+Improved understanding of pricing strategies in the airline industry
+Demonstrated strong skills in:
 Data cleaning
-Data analysis
-Visualization
-Extracting meaningful business insights from large datasets
+Exploratory Data Analysis (EDA)
+Data visualization
+Insight generation
+
+⭐ Unique Value of This Project
+Large-scale dataset (300K+ records)
+Multiple factor analysis (time, route, airline, class)
+Real-world insights useful for travelers and businesses
+Combination of statistical analysis + visualization
+
