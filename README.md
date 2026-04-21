@@ -51,6 +51,8 @@ It is designed to provide **actionable insights** that help users understand *wh
 
 * Pandas
 * NumPy
+* matplotlib
+* seaborn
 
 ## ⚙️ Getting Started
 
@@ -96,7 +98,7 @@ python main.py
 
 ## 👨‍💻 Contributors
 
-👤 Your Name – Data Analysis & Visualization
+👤 Your Name – ankitkumar8558011-alt
 
 
 ## ⭐ Support
