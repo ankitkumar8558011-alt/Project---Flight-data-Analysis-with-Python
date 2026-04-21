@@ -87,15 +87,6 @@ python main.py
 🔥 Covers **multiple real-world factors affecting pricing**
 🔥 Structured pipeline (cleaning → analysis → visualization)
 
-## 🔮 Future Scope
-
-🌐 Build interactive dashboard using Streamlit
-
-🤖 Add **machine learning model for price prediction**
-
-📡 Integrate real-time flight data APIs
-
-
 ## 👨‍💻 Contributors
 
 👤 Name – Ankit Kumar
