@@ -1,96 +1,105 @@
-📌 Problem Statement
 
--Flight ticket prices vary based on multiple factors such as airline, route, booking time, seat class, and number of stops.
+# ✈️ Flight Data Analysis Project
 
-The objective of this project is to perform exploratory data analysis (EDA) on a dataset of 300,000+ flight records to:
+Flight Data Analysis is a **data-driven project** that analyzes **300,000+ flight records** to uncover insights on ticket pricing, booking behavior, airline trends, and route demand.
 
-Understand how different factors affect flight prices
-Identify patterns in booking behavior and pricing trends
-Analyze airline performance and route demand
-Provide insights to help users make better booking decisions
+It is designed to provide **actionable insights** that help users understand *when to book flights, which routes are expensive, and how pricing varies across different factors*.
 
-🛠️ Tech Stack
-Programming Language: Python
-Libraries Used:
-Pandas – Data cleaning & manipulation
-NumPy – Numerical operations
-Matplotlib – Data visualization
-Seaborn – Advanced statistical visualization
+## 🚀 Features
 
-📂 Dataset Description
-The dataset contains 300,153 flight records with the following key features:
-Airline (6 unique airlines)
-Source & Destination cities (6 cities)
-Departure & Arrival time
-Number of stops
-Seat class (Economy / Business)
-Duration of flight
-Days left before departure
-Ticket price (Target variable)
+✅ **Large-Scale Data Analysis** – Processed and analyzed 300K+ real-world flight records
 
-⚙️ Project Workflow
-1. Data Cleaning
-Removed unnecessary columns (index)
-Checked for missing values (none found)
-Verified data types and consistency
-2. Data Exploration
-Generated statistical summaries
-Analyzed distributions of duration, price, and booking days
-3. Data Visualization
-Created bar charts, line plots, and relational plots
-Compared multiple variables affecting ticket prices
+✅ **Data Cleaning & Preprocessing** – Handled structured dataset with no missing values and optimized for analysis
 
-📊 Key Analysis Performed
-✈️ Airline Analysis
-Identified 6 airlines with Vistara and Air India dominating the dataset
-Compared average ticket prices across airlines
+✅ **Exploratory Data Analysis (EDA)** – Identified trends in pricing, booking patterns, and airline performance
 
-🕒 Time-Based Analysis
-Studied departure and arrival time distributions
-Found that ticket prices vary significantly depending on time slots
+✅ **Visualization & Insights** – Built clear and meaningful visualizations using graphs and charts
 
-🌍 Route Analysis
-Analyzed source and destination city trends
-Identified high-traffic routes and their pricing patterns
+✅ **Multi-Factor Analysis** – Compared pricing based on:
 
-💰 Price vs Booking Time
-Analyzed how ticket price changes with days left before departure
-Observed that:
-Prices are highest when booked close to departure (1–3 days)
-Prices decrease when booked earlier
+* Airline
+* Departure & Arrival Time
+* Source & Destination
+* Days Left (booking time)
+* Seat Class
 
-🪑 Class-Based Analysis
-Compared ticket prices between Economy and Business class
+## 📊 Key Insights
 
-👉 Key finding:
-Economy Average Price: ~₹6,500
-Business Average Price: ~₹52,500
+📈 **Price vs Booking Time** – Prices are highest when tickets are booked **1–3 days before departure**
 
-🔍 Case Study Analysis
-Example: Vistara flights from Delhi to Hyderabad (Business class)
-Average price found: ~₹47,939
+🪑 **Class Difference** – Business class tickets (~₹52K avg) are significantly more expensive than Economy (~₹6.5K avg)
 
-📈 Key Insights
-📊 Flight prices increase as departure date approaches
-🛫 Certain airlines (like Vistara) have significantly higher pricing
-🪑 Business class tickets are ~8x more expensive than Economy
-🌍 Popular routes (Delhi, Mumbai, Bangalore) dominate traffic
-🕒 Night and peak-hour flights tend to be more expensive
-📅 Early booking can significantly reduce ticket cost
+🛫 **Airline Trends** – Premium airlines like Vistara have higher average fares
 
-🚀 Outcomes
-Built a complete data analysis pipeline (cleaning → analysis → visualization)
-Extracted real-world insights from a large dataset (300K+ records)
-Improved understanding of pricing strategies in the airline industry
-Demonstrated strong skills in:
-Data cleaning
-Exploratory Data Analysis (EDA)
-Data visualization
-Insight generation
+🌍 **Route Analysis** – High-demand cities like Delhi, Mumbai, and Bangalore dominate traffic
 
-⭐ Unique Value of This Project
-Large-scale dataset (300K+ records)
-Multiple factor analysis (time, route, airline, class)
-Real-world insights useful for travelers and businesses
-Combination of statistical analysis + visualization
+🕒 **Time Impact** – Night and peak-hour flights tend to be more expensive
+
+## 🏗️ System Workflow
+
+📥 Data Collection
+→ 🧹 Data Cleaning & Preprocessing
+→ 📊 Exploratory Data Analysis (EDA)
+→ 📈 Visualization & Insights
+→ 📌 Conclusion & Findings
+
+## 🛠️ Tech Stack
+
+**Backend / Analysis →** Python
+
+**Libraries →**
+
+* Pandas
+* NumPy
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/ankitkumar8558011-alt/flight-data-analysis.git
+cd flight-data-analysis
+
+### 2️⃣ Setup Environment
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+
+### 3️⃣ Run the Project
+python main.py
+
+## 📊 Output
+
+(Add your screenshots here)
+
+* 📈 Price vs Days Left Graph
+* 📊 Airline Comparison Chart
+* 🌍 Route Analysis
+* 🪑 Seat Class Price Distribution
+
+  
+## ⭐ Unique Highlights
+
+🔥 Analysis on **300K+ real-world dataset**
+🔥 Strong **business insights (not just graphs)**
+🔥 Covers **multiple real-world factors affecting pricing**
+🔥 Structured pipeline (cleaning → analysis → visualization)
+
+## 🔮 Future Scope
+
+🌐 Build interactive dashboard using Streamlit
+
+🤖 Add **machine learning model for price prediction**
+
+📡 Integrate real-time flight data APIs
+
+
+## 👨‍💻 Contributors
+
+👤 Your Name – Data Analysis & Visualization
+
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub
 
