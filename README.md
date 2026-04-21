@@ -55,7 +55,7 @@ It is designed to provide **actionable insights** that help users understand *wh
 ## ⚙️ Getting Started
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/ankitkumar8558011-alt/Project --- Flight-data-Analysis-with-Python
+git clone https://github.com/ankitkumar8558011-alt/Project---Flight-data-Analysis-with-Python
 cd flight-data-analysis
 
 ### 2️⃣ Setup Environment
