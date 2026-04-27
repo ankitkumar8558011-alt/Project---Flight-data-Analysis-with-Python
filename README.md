@@ -1,11 +1,11 @@
 
-# ✈️ Flight Data Analysis Project
+#  Flight Data Analysis Project
 
 Flight Data Analysis is a **data-driven project** that analyzes **300,000+ flight records** to uncover insights on ticket pricing, booking behavior, airline trends, and route demand.
 
 It is designed to provide **actionable insights** that help users understand *when to book flights, which routes are expensive, and how pricing varies across different factors*.
 
-## 🚀 Features
+##  Features
 
 ✅ **Large-Scale Data Analysis** – Processed and analyzed 300K+ real-world flight records
 
@@ -23,27 +23,27 @@ It is designed to provide **actionable insights** that help users understand *wh
 * Days Left (booking time)
 * Seat Class
 
-## 📊 Key Insights
+##  Key Insights
 
-📈 **Price vs Booking Time** – Prices are highest when tickets are booked **1–3 days before departure**
+ **Price vs Booking Time** – Prices are highest when tickets are booked **1–3 days before departure**
 
-🪑 **Class Difference** – Business class tickets (~₹52K avg) are significantly more expensive than Economy (~₹6.5K avg)
+ **Class Difference** – Business class tickets (~₹52K avg) are significantly more expensive than Economy (~₹6.5K avg)
 
-🛫 **Airline Trends** – Premium airlines like Vistara have higher average fares
+ **Airline Trends** – Premium airlines like Vistara have higher average fares
 
-🌍 **Route Analysis** – High-demand cities like Delhi, Mumbai, and Bangalore dominate traffic
+ **Route Analysis** – High-demand cities like Delhi, Mumbai, and Bangalore dominate traffic
 
-🕒 **Time Impact** – Night and peak-hour flights tend to be more expensive
+ **Time Impact** – Night and peak-hour flights tend to be more expensive
 
-## 🏗️ System Workflow
+##  System Workflow
 
-📥 Data Collection
-→ 🧹 Data Cleaning & Preprocessing
-→ 📊 Exploratory Data Analysis (EDA)
-→ 📈 Visualization & Insights
-→ 📌 Conclusion & Findings
+ Data Collection
+→  Data Cleaning & Preprocessing
+→  Exploratory Data Analysis (EDA)
+→  Visualization & Insights
+→  Conclusion & Findings
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Backend / Analysis →** Python
 
@@ -57,7 +57,7 @@ It is designed to provide **actionable insights** that help users understand *wh
 ## ⚙️ Getting Started
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/ankitkumar8558011-alt/Project---Flight-data-Analysis-with-Python
+git clone https://github.com/ankitkumar8558011-alt/Flight-data-Analysis-with-Python
 
 ### 2️⃣ Setup Environment
 python -m venv venv
@@ -69,14 +69,14 @@ pip install -r requirements.txt
 ### 3️⃣ Run the Project
 python main.py
 
-## 📊 Output
+##  Output
 
 (Add your screenshots here)
 
-* 📈 Price vs Days Left Graph
-* 📊 Airline Comparison Chart
-* 🌍 Route Analysis
-* 🪑 Seat Class Price Distribution
+*  Price vs Days Left Graph
+*  Airline Comparison Chart
+*  Route Analysis
+*  Seat Class Price Distribution
 
   
 ## ⭐ Unique Highlights
@@ -86,7 +86,7 @@ python main.py
 🔥 Covers **multiple real-world factors affecting pricing**
 🔥 Structured pipeline (cleaning → analysis → visualization)
 
-## 👨‍💻 Contributors
+## Contributors
 
 👤 Name – Ankit Kumar
 
